@@ -1,0 +1,92 @@
+html, body{
+    background-color: #F2E3BC;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100%; */
+    /* margin-top: 100px; */
+}
+
+#h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100px;
+}
+.images{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.result{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#you{
+    color: rgb(100, 144, 34);
+}
+#computer{
+    color: red;
+}
+.decision{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #151516;
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+.youWon{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(100, 144, 34);
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+.compWon{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgb(66, 64, 64);
+    
+}
+img:active{
+    box-shadow: 0px 0px 5px rgb(49, 48, 48);
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+header{
+    background-color: rgb(31, 27, 40);
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
