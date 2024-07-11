@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #8FD5A6;
+    text-align: center;
+}
+.mainDiv{
+    /* border: 2px groove orange; */
+}
+.box{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 10px;
+    border-width: 4px;
+    background-color: #d9e7de;
+    line-height: 100px;
+    vertical-align: top;
+    margin: 1px;
+}
+.reset{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: #982649;
+    margin: 10px;
+}
+button:hover{
+    background-color: #74897c;
+}
+h2{
+    color: #283a2e;
+}
